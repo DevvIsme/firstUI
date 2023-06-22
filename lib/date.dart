@@ -10,7 +10,7 @@ class date extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
         child: Stack(
-      alignment: Alignment.center,
+      alignment: Alignment.topLeft,
       children: [
         Image.asset('assets/calender.png'),
         Positioned(
@@ -20,7 +20,7 @@ class date extends StatelessWidget {
                 Text(d,
                     style: const TextStyle(
                         fontSize: 20,
-                        color: Colors.blue,
+                        color: Colors.white,
                         fontWeight: FontWeight.bold)),
                 Text(
                   y,
